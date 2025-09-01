@@ -141,7 +141,7 @@ form.addEventListener("submit", async function (e) {
   };
 
   try {
-    const res = await fetch("http://localhost:3000/book-table",  {
+    const res = await fetch("https://restaurant-website-backend-tufr.onrender.com/book-table",  {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data)
